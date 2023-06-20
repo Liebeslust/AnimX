@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "runSquish",
+            "type": "shell",
+            "command": "${workspaceFolder}\\runSquish.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build and Copy",
+            "type": "shell",
+            "command": "${workspaceFolder}\\copy.bat ${workspaceFolderBasename}",
+            "dependsOn": "runSquish",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

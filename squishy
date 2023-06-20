@@ -1,0 +1,39 @@
+-- Include modules
+Module "src.lib.utils"
+Module "src.lib.misc.filelist"
+Module "src.lib.misc.labels"
+Module "src.lib.misc.localization"
+Module "src.lib.misc.updater"
+
+Module "src.lib.external.functions"
+Module "src.lib.external.json"
+
+Module "src.lib.audio"
+
+Module "src.lib.animlib.anim"
+Module "src.lib.animlib.animMenu"
+
+Module "src.lib.actorlib.component"
+Module "src.lib.actorlib.group"
+Module "src.lib.actorlib.member"
+Module "src.lib.actorlib.models"
+Module "src.lib.actorlib.prop"
+Module "src.lib.actorlib.wardrobe"
+Module "src.lib.actorlib.weaponsMenu"
+Module "src.consts.ped_list"
+Module "src.consts.anim_list"
+
+Module "src.lib.actor"
+
+Module "src.lib.menus"
+
+
+-- Include the main script
+Main "main.lua"
+
+-- Set the output file
+Output "AnimX.lua"
+
+Option "minify-level" "full"
+Option "uglify"
+Option "uglify-level" "full"

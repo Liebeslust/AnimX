@@ -1,0 +1,51 @@
+{
+    "Lua.diagnostics.globals": [
+        "menu",
+        "filesystem",
+        "util",
+        "async_http",
+        "players",
+        "entities",
+        "directx",
+        "memory",
+        "CLICK_FLAG_AUTO",
+        "SCRIPT_FILENAME",
+        "SCRIPT_NAME",
+        "SCRIPT_MANUAL_START"
+    ],
+    "Lua.workspace.ignoreDir": [
+        ".vscode",
+        "release"
+    ],
+    "Lua.codeLens.enable": true,
+    "Lua.diagnostics.ignoredFiles": "Disable",
+    "Lua.hint.setType": true,
+    "Lua.workspace.preloadFileSize": 2300,
+    "luahelper.base.ignoreFileOrDir": [
+        ".vscode/",
+        "one11.lua",
+        "release/"
+    ],
+    "luahelper.base.ignoreFileOrDirError": [
+        ".vscode/",
+        "one11.lua",
+        "release/"
+    ],
+    "luahelper.Warn.CheckAfterDefine": true,
+    "luahelper.Warn.CheckBinaryExpressionDuplicate": true,
+    "luahelper.Warn.CheckErrorOrAlwaysTrue": true,
+    "luahelper.Warn.CheckErrorAndAlwaysFalse": true,
+    "luahelper.Warn.CheckFloatEq": true,
+    "luahelper.Warn.CheckFuncParam": true,
+    "luahelper.Warn.CheckIfNotVar": true,
+    "luahelper.Warn.CheckImportModuleVar": true,
+    "luahelper.Warn.CheckLocalNoUse": true,
+    "luahelper.Warn.CheckNoDefine": true,
+    "luahelper.Warn.CheckSelfAssign": true,
+    "luahelper.Warn.CheckReferNoFile": true,
+    "luahelper.Warn.CheckNoUseAssign": true,
+    "luahelper.format.keep_simple_control_block_one_line": true,
+    "luahelper.format.keep_simple_function_one_line": true,
+    "luahelper.base.formatErrShow": true,
+    "luahelper.base.report": false,
+}
